@@ -1,0 +1,76 @@
+.right-coin-main-div {
+    bottom: 225px;
+    height: 175px;
+    position: absolute;
+    right: 230px;
+    width: 304px;
+}
+
+.text-component-right {
+    font-family: 'Ropa Sans', sans-serif;
+    height: 133px;
+    left: 21px;
+    position: absolute;
+    top: 22px;
+    width: 177px;
+}
+
+.contact-information {
+
+    display: flex;
+    font-size: 8px;
+    height: 30px;
+    line-height: 11px;
+    justify-content: space-between;
+    position: absolute;
+    width: 144px;
+}
+
+.name-info {
+    height: auto;
+    width: 66px;
+}
+
+.street-info {
+    height: auto;
+    width: 46px;
+}
+
+.BS-card-mockup {
+    bottom: 0;
+    color: #1F1F1F;
+    font-size: 23px;
+    /*line-height: 8px;*/
+    height: 44px;
+    
+    position: absolute;
+    width: 131px;
+}
+
+.yellow-triangles-component-right {
+    height: 133px;
+    position: absolute;
+    right: 20px;
+    top: 22px;
+    width: 88px;
+}
+
+.smallest-triangle-right {
+    top: 0;
+    height: 0;
+    left: 0;
+    width: 0;
+    border-left: 45px solid var(--main-yellow-color);
+    border-top: 58px solid transparent;
+    position: absolute;
+}
+
+.largest-triangle-right {
+    bottom: 0;
+    height: 0;
+    right: 0;
+    width: 0;
+    border-right: 88px solid var(--main-yellow-color);
+    border-top: 133px solid transparent;
+    position: absolute;
+}

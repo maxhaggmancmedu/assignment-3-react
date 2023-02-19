@@ -1,0 +1,94 @@
+.left-coin-main-div {
+    color: #4A4A4A;
+    height: 178px;
+    left: 278px;
+    position: absolute;
+    top: 243px;
+    width: 310px;
+}
+
+.text-component-left {
+    height: 136px;
+    font-family: 'Archivo', sans-serif;
+    left: 30px;
+    
+    position: absolute;
+    top: 22px;
+    width: 249px;
+}
+
+.text.five {
+    bottom: 0;
+    font-size: 87px;
+    height: 83px;
+    left: 0;
+    white-space: nowrap;
+    position: absolute;
+}
+
+.text.one-two-seven {
+    font-size: 87px;
+    height: 83px;
+    line-height: 82px;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+    width: 180px;
+}
+
+.text.TM {
+    bottom: 0;
+    font-size: 8px;
+    font-weight: 900;
+    height: 8px;
+    left: 89px;
+    position: absolute;
+}
+
+
+
+.text.one-two-seven > p {
+    font-size: 83px;
+    height: 83px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.yellow-triangles-component-left {
+    height: 96px;
+    left: 30px;
+    position: relative;
+    top: 60px;
+    width: 249px;
+    z-index: 20;
+}
+
+.smallest-triangle-left {
+    border-right: 84px solid var(--main-yellow-color);
+    border-top: 48px solid transparent;
+    bottom: 0;
+    height: 0;
+    left: 0;
+    width: 0;
+    position: absolute;
+}
+
+.largest-triangle-left {
+    border-left: 170px solid transparent;
+    border-top: 96px solid var(--main-yellow-color);
+    height: 0;
+    width: 0;
+    position: absolute;
+}
+
+.right-triangle-left {
+    border-right: 80px solid var(--main-yellow-color);
+    border-top: 96px solid transparent;
+    bottom: 0;
+    height: 0;
+    right: 0;
+    position: absolute;
+    width: 0;
+}
