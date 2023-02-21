@@ -1,8 +1,6 @@
 import React from 'react'
-import '../index.css'
 import './right-coin.css'
 
- 
 function YellowTrianglesRight () {
  return (
     <div className='yellow-triangles-component-right'>

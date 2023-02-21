@@ -1,17 +1,20 @@
 .left-coin-main-div {
     color: #4A4A4A;
-    height: 178px;
-    left: 278px;
+    height: 179px;
+    left: 277px;
     position: absolute;
-    top: 243px;
-    width: 310px;
+    top: 241px;
+    width: 311px;
+}
+
+.left-coin-main-div {
+    z-index: 30;
 }
 
 .text-component-left {
     height: 136px;
     font-family: 'Archivo', sans-serif;
     left: 30px;
-    
     position: absolute;
     top: 22px;
     width: 249px;
@@ -45,8 +48,6 @@
     left: 89px;
     position: absolute;
 }
-
-
 
 .text.one-two-seven > p {
     font-size: 83px;

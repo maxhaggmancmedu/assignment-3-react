@@ -1,8 +1,6 @@
 import React from 'react'
-import '../index.css'
 import './right-coin.css'
 
- 
 function TextComponentRight () {
  return (
     <div className='text-component-right'>
@@ -18,7 +16,7 @@ function TextComponentRight () {
                 Brooklyn, NY
             </div>
         </div>
-        <div className='BS-card-mockup'>Business Card Mockup</div>
+        <div className='BS-card-mockup'>This is TAILS</div>
     </div>
  )   
 }

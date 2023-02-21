@@ -1,0 +1,64 @@
+:root {
+    font-size: 10px;
+    --main-yellow-color: #DAB255;
+  }
+  
+  html {
+    height: 100vh;
+  }
+  
+  body {
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .background {
+    align-items: center;
+    background-attachment: scroll;
+    background-color: #0D1112;
+    background-image: url("./assets/background.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 800px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+  }
+  
+  .flip {
+    background-color: #c07b86 ;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 2rem;
+    top: 85%;
+    left: calc(50%);
+    padding: 16px 48px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition-duration: .3s;
+  }
+  
+  .flip:hover,
+  .reset:hover {
+    opacity: .7;
+  }
+  
+  .reset {
+    background-color: #b3374b ;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    top: 94%;
+    left: calc(50%);
+    padding: 16px 48px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition-duration: .3s;
+  }
+  
+  

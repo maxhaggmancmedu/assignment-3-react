@@ -1,12 +1,11 @@
 import React from 'react'
-import './index.css'
 import LeftCoin from './left-coin/left-coin'
 import RightCoin from './right-coin/right-coin'
-import {CoinState, randomNumber}  from './Coinstate'
+import CoinState  from './Coinstate.jsx'
+
 
 function App() {
-  console.log(CoinState)
-  console.log(randomNumber)
+  
   return (
     <div className="background">
         <LeftCoin />

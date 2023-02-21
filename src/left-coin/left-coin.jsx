@@ -1,5 +1,4 @@
 import React from 'react'
-import '../index.css'
 import './left-coin.css'
 import YellowTriangles from './yellow-triangles-left'
 import TextComponentLeft from './text-component-left'

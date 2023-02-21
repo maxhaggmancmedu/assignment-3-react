@@ -1,0 +1,32 @@
+.right-div-active, 
+.left-div-active {
+    background-color: rgb(60, 87, 161);
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+.right-div-active {
+    bottom: 225px;
+    height: 175px;
+    position: absolute;
+    right: 230px;
+    width: 304px;
+}
+
+.left-div-active {
+    height: 179px;
+    left: 277px;
+    position: absolute;
+    top: 241px;
+    width: 311px;
+}
