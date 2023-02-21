@@ -10,17 +10,10 @@ function CoinState() {
     }
     
     const rollCoin = () => {
-      let randomNumber = 1;
 
       setCoin(Math.random())
 
-      if (coin > 0 && coin <= 0.50) {
-        randomNumber = 1;
-      } else if (coin > 0.50) {
-        randomNumber = 2;
-      }
-      console.log(randomNumber)
-      console.log(coin);
+      console.log(coin)
     }
     
 
@@ -32,7 +25,7 @@ function CoinState() {
           <button className='flip' onClick={rollCoin}>Flip Coin!</button>
         </>
         )
-    } else if (coin >= 0.50) {
+    } else if (coin > 0.50) {
       return (
         <>
           <div className='left-div-active'></div>
